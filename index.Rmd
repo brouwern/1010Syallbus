@@ -1,0 +1,62 @@
+--- 
+title: "BioSci 1010: Communicating in the Biological Sciences"
+author: "Nathan BRouwer"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+#bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Syllabus for Biosci 1010
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+This is the syllabus for Dr. Nathan Brouwer's writing course BioSci 1010: Communicating in the Biological Sciences.
+
+## Instructor:	
+
+Dr. Nathan Brouwer
+A351 Langley Hall-
+Phone: 412-648-7687
+Email: nlb24@pitt.edu
+Course documents: Google Drive 
+
+
+## Office hours
+
+
+I am always willing to meet with students individually.  I reserve time on Friday afternoon from noon to 1 to meet with students.  
+
+If you are not free on Fridays please schedule an appointment using https://calendly.com/brouwern.  
+
+If those times don’t work you can email to make arrangements.
+
+## Class Time and Location:	
+
+Tuesday 2:00 – 3:50 PM in A202 Langley Hall
+
+## Prerequisites
+
+You must have completed BIOSC 0160 and ENGCOMP 0200 with a C grade or better.
+
+## Course Materials
+
+*The Scientist's Guide to Writing,2nd edition*  by Stephen Heard. (Get the **2nd edition**, NOT the 1st edition with reddish print on the cover)
+
+Several helpful texts are available on reserve in Langley Library.  You may find *Writing in the Biological Sciences* by Angelika Hofmann and *Writing in the Life Sciences, A Critical Thinking Approach* by Laurence Greene, particularly helpful.
+
+## Course Objectives {#objectives}
+
+* Identify how, when, and why scientific writing is different from professional writing in other disciplines and when it is the same
+* Understand the general process and “ecology” of scientific publishing
+* Learn to recognize the patterns in written English that help or hinder communication
+* Search, read, and analyze the scientific literature
+* Use your accumulated biology knowledge to synthesize a professionally written overview of a biological topic, focusing on a specific recently published paper and putting it into a broader context.
+* Present your work in a professional oral presentation
+* Recognize how your presentation must change depending upon audience and medium (oral or written)
+* Constructively assess the effectiveness of other people’s written and oral communication as well as your own
+

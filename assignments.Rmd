@@ -1,0 +1,38 @@
+# Assignment 1: Gene background paper
+
+1. [i] Vital stats table: size, chromosome etc, w/ 3D structure
+1. [ii] Timeline
+1. [ii] Causal diagram of phenotype associations
+1. [iv] Main text of paper
+1. [iii] References
+
+
+# Assignment 2: Focal functional paper summary
+
+1. [v] Diagram of experimental procedure
+1. Causal diagram (updated since assignment 1)
+1. [vi, vii] 2 Data figures
+1. [vii] Main text of paper
+1. References
+
+# Assignment 3: Presentation
+
+1. Title slide
+1. Timeline*
+1. Causal diagram*
+1. 3D structure of protein
+1. (Image or cartoon showing phenotypic difference, ideally of data but can be a graphic)
+1. Diagram of experimental procedure
+1. Focal figure from 
+
+# Assignment 4: Final paper
+
+1. [ ] Title **
+1. [ ] Abstract
+1. Lay summary
+1. Promotional tweet
+1. Introduction: History etc
+1. Results: Focal functional paper
+1. Assemble all components, edit down into single document
+1. References
+

@@ -1,0 +1,251 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={BioSci 1010: Communicating in the Biological Sciences},
+  pdfauthor={Nathan BRouwer},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{BioSci 1010: Communicating in the Biological Sciences}
+\author{Nathan BRouwer}
+\date{2022-08-17}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+This is the syllabus for Dr.~Nathan Brouwer's writing course BioSci 1010: Communicating in the Biological Sciences.
+
+\hypertarget{instructor}{%
+\section{Instructor:}\label{instructor}}
+
+Dr.~Nathan Brouwer
+A351 Langley Hall-
+Phone: 412-648-7687
+Email: \href{mailto:nlb24@pitt.edu}{\nolinkurl{nlb24@pitt.edu}}
+Course documents: Google Drive
+
+\hypertarget{office-hours}{%
+\section{Office hours}\label{office-hours}}
+
+I am always willing to meet with students individually. I reserve time on Friday afternoon from noon to 1 to meet with students.
+
+If you are not free on Fridays please schedule an appointment using \url{https://calendly.com/brouwern}.
+
+If those times don't work you can email to make arrangements.
+
+\hypertarget{class-time-and-location}{%
+\section{Class Time and Location:}\label{class-time-and-location}}
+
+Tuesday 2:00 -- 3:50 PM in A202 Langley Hall
+
+\hypertarget{prerequisites}{%
+\section{Prerequisites}\label{prerequisites}}
+
+You must have completed BIOSC 0160 and ENGCOMP 0200 with a C grade or better.
+
+\hypertarget{course-materials}{%
+\section{Course Materials}\label{course-materials}}
+
+\emph{The Scientist's Guide to Writing,2nd edition} by Stephen Heard. (Get the \textbf{2nd edition}, NOT the 1st edition with reddish print on the cover)
+
+Several helpful texts are available on reserve in Langley Library. You may find \emph{Writing in the Biological Sciences} by Angelika Hofmann and \emph{Writing in the Life Sciences, A Critical Thinking Approach} by Laurence Greene, particularly helpful.
+
+\hypertarget{objectives}{%
+\section{Course Objectives}\label{objectives}}
+
+\begin{itemize}
+\tightlist
+\item
+  Identify how, when, and why scientific writing is different from professional writing in other disciplines and when it is the same
+\item
+  Understand the general process and ``ecology'' of scientific publishing
+\item
+  Learn to recognize the patterns in written English that help or hinder communication
+\item
+  Search, read, and analyze the scientific literature
+\item
+  Use your accumulated biology knowledge to synthesize a professionally written overview of a biological topic, focusing on a specific recently published paper and putting it into a broader context.
+\item
+  Present your work in a professional oral presentation
+\item
+  Recognize how your presentation must change depending upon audience and medium (oral or written)
+\item
+  Constructively assess the effectiveness of other people's written and oral communication as well as your own
+\end{itemize}
+
+\hypertarget{academic-integrity}{%
+\chapter{Academic Integrity}\label{academic-integrity}}
+
+Cheating/plagiarism will not be tolerated. Students suspected of violating the University of Pittsburgh Policy on Academic Integrity (\url{http://www.as.pitt.edu/faculty/policy/integrity.html}) will be required to participate in the outlined procedural process as initiated by the instructor.
+
+Violation of the Academic Integrity Code requires the instructor to submit an Academic Integrity Violation Report to the Dean's Office.
+
+Any attempt to submit work that is not the student's own work is a violation of academic integrity. If I find that a writing assignment contains evidence of plagiarism, the level of severity will determine whether the sanction is an F in the course, a 0 score on the assignment, or partial credit on the assignment. A second academic integrity offense in the course will result in an automatic grade of F.
+
+\hypertarget{assignments---general-policies}{%
+\chapter{Assignments - General Policies}\label{assignments---general-policies}}
+
+Unless otherwise noted, assignments are due at the \emph{beginning} of class on the specified class day.
+
+Class starts on time, so assignments turned in after 2 pm will be considered late.
+
+The final paper will be due during finals week at a time to be determined.
+
+\hypertarget{canvas}{%
+\chapter{Canvas}\label{canvas}}
+
+Canvas will primarily used for announcements and to distribute course materials. You should check their email and/or Canvas frequently for course announcements and other information.
+
+\hypertarget{e-mail}{%
+\chapter{E-mail}\label{e-mail}}
+
+E-mail will be used routinely in this class for communication. I will usually send out e-mail notices using the University e-mail addresses available through Canvas. Such notices are also posted as Announcements on Canvas.
+
+\hypertarget{university-email-policy}{%
+\section{University Email Policy}\label{university-email-policy}}
+
+Each student is issued a University e-mail address (\href{mailto:username@pitt.edu}{\nolinkurl{username@pitt.edu}}) upon admittance. This e-mail address may be used by the University for official communication with students. Students are expected to read e-mail sent to this account on a regular basis. Failure to read and react to University communications in a timely manner does not absolve the student from knowing and complying with the content of the communications. The University provides an e-mail forwarding service that allows students to read their e-mail via other service providers (e.g.~Gmail). Students that choose to forward their e-mail from their pitt.edu address to another address do so at their own risk. If e-mail is lost as a result of forwarding, it does not absolve the student from responding to official communications sent to their University e-mail address. To forward e-mail sent to your University account, go to \url{http://accounts.pitt.edu}, log into your account, click on `Edit Forwarding Addresses', and follow the instructions on the page. Be sure to log out of your account when you have finished.
+
+\hypertarget{emergency-situations}{%
+\chapter{Emergency Situations}\label{emergency-situations}}
+
+Assignments missed due to emergency situations (illness, serious injury, or death in your immediate family) will be considered on an individual basis. You must submit your request for an extension in writing; verbal communication is not sufficient.
+
+Please use the following guidelines to prepare your request:
+
+\begin{itemize}
+\tightlist
+\item
+  Your request for an extension or accommodation must include your name, a detailed description of the nature of the emergency, and the assignment that you missed.
+\item
+  Your request must be signed and handed directly to me no later than one week after the assignment's due date.
+\item
+  Failure to comply with these guidelines could result in a zero recorded for the assignment.
+\end{itemize}
+
+\hypertarget{grading-policy}{%
+\chapter{Grading policy}\label{grading-policy}}
+
+\textbf{Rubrics} will be made available prior to most major assignments. On-time completion of all items of the rubric following the norms of scientific writing (formatting, tone, focus, and to some extent grammar and spelling) will result in a score of \textbf{87\%} of the points for the assignment.
+
+Additional points can be earned up to the maximum possible by submitting work that displays research, polish, professional quality and/or effort beyond what is outlined in the rubric. Similarly, work that displays significant \emph{improvement} in effort or writing skills may earn additional points.
+
+\hypertarget{tips-for-meeting-the-b-standard-on-assignments}{%
+\section{Tips for MEETING the ``B'' standard on assignments}\label{tips-for-meeting-the-b-standard-on-assignments}}
+
+\begin{itemize}
+\tightlist
+\item
+  Turn in the assignment on time
+\item
+  Double check that you've met all the requirements for the assignment; if one is available use the rubric as a check-off list.
+\item
+  Re-read your assignment one last time before submitting to check for spelling, grammar, and formatting mistakes.
+\item
+  Make sure any and all references, citations, and species names are formatted correctly.
+\end{itemize}
+
+\hypertarget{tips-for-exceedinbg-the-b-standard-on-assignments}{%
+\section{Tips for EXCEEDINBG the ``B'' standard on assignments}\label{tips-for-exceedinbg-the-b-standard-on-assignments}}
+
+\begin{itemize}
+\tightlist
+\item
+  Finish the assignment a day early, then re-read it before submitting it.
+\item
+  Have a friend, labmate or family member read it and make revisions based on their feedback
+\item
+  Consider your choice of references you've used. Have you selected the best thing to cite for a particular statement? Is there something more recent? Should you cite the primary literature instead of a review? Should you cite a review instead of the primary literature?
+\item
+  Are there any run-on sentences? Should they be split into two sentences?
+\item
+  Are your sentences as direct and clear as possible? Have you unnecessarily used commas, prepositional phrases, or put things into parentheses (Honestly, you probably should never put stuff in parentheses unless it's for a \emph{very} specific purpose, like statistics).
+\end{itemize}
+
+\hypertarget{students-with-disabilities}{%
+\chapter{Students with Disabilities}\label{students-with-disabilities}}
+
+If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and the Office of Disability Resources and Services, 140 William Pitt Union, 412-648-7890/412-624-3346 (Fax), as early as possible in the term. Disability Resources and Services will verify your disability and determine reasonable accommodations for this course. For more information, visit www.studentaffairs.pitt.edu/drsabout.
+
+\hypertarget{turnitin}{%
+\section{Turnitin}\label{turnitin}}
+
+Students agree that by taking this course all required papers can be subject to submission for textual similarity review to Turnitin.com for the detection of plagiarism. All submitted papers will be included as source documents in the Turnitin.com reference database solely for the purpose of detecting plagiarism of such papers. Use of Turnitin.com page service is subject to the Usage Policy and Privacy Pledge posted on the Turnitin.com site.
+
+\end{document}
