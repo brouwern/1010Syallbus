@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">1010 Syllabus</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/brouwern/BIOSCI_1010" target="blank">Published with bookdown</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

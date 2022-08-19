@@ -10,7 +10,7 @@ documentclass: book
 description: |
   Syllabus for Biosci 1010
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: brouwern/BIOSCI_1010
 ---
 
 # About
