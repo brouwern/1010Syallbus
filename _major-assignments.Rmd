@@ -1,4 +1,4 @@
-# Assignment 1: Gene background paper
+# Major Assignment 1: Gene background paper
 
 1. [i] Vital stats table: size, chromosome etc, w/ 3D structure
 1. [ii] Timeline

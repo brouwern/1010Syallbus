@@ -1,6 +1,6 @@
 --- 
 title: "BioSci 1010: Communicating in the Biological Sciences"
-author: "Nathan BRouwer"
+author: "Nathan Brouwer"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -20,10 +20,13 @@ This is the syllabus for Dr. Nathan Brouwer's writing course BioSci 1010: Commun
 ## Instructor:	
 
 Dr. Nathan Brouwer
-A351 Langley Hall-
+
+A255 Langley Hall (the "Bridge")
+
 Phone: 412-648-7687
-Email: nlb24@pitt.edu
-Course documents: Google Drive 
+
+Email: nlb24 at pitt.edu
+
 
 
 ## Office hours
